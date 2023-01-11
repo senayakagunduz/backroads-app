@@ -14,19 +14,6 @@ const Navbar = () => {
         </button>
     </div>
     <NavLinks parentClass="nav-links" itemClass="nav-link"/>
-    {/* <ul className="nav-links" id="nav-links">
-        {
-            pageLinks.map((link)=>{
-                const {id,href,text}=link;
-                return (
-                    <li key={id}>
-                        <a href={href} className="nav-link" rel="noreferrer"> {text} </a>
-                    </li>
-                )
-            })
-        }
-    </ul> */}
-    
     <ul className="nav-icons">
         {
         socialLinks.map((link)=>{
@@ -43,5 +30,4 @@ const Navbar = () => {
 </nav>    
     );
 };
-
 export default Navbar;
